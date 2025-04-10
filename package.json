@@ -1,0 +1,23 @@
+{
+  "name": "javascript-examples",
+  "version": "1.0.0",
+"scripts": {
+  "test": "cucumber-js --require definitons/**/*.js --format json:./reports/cucumber_report.json --publish-quiet && npm run generate-report",
+  "generate-report": "node ./generateReport.js",
+  "open-report": "open ./reports/cucumber_report.html"
+}
+,
+  "author": "The Selenium project",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.0.0",
+    "assert": "2.1.0",
+    "chai": "^5.2.0",
+    "chromedriver": "^135.0.0",
+    "cucumber-html-reporter": "^7.2.0",
+    "selenium-webdriver": "4.31.0"
+  },
+  "devDependencies": {
+    "mocha": "11.1.0"
+  }
+}

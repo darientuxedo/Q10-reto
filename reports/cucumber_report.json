@@ -1,0 +1,128 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "cp01---validate-free-trial-form;1--completed-the-form-with-vlaid-credentials",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "1- completed the form with vlaid credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user navigates to the main page",
+            "match": {
+              "location": "definitons\\FormDef.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4406308900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "click the free trial button",
+            "match": {
+              "location": "definitons\\FormDef.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1414359400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "enter valid credentials",
+            "match": {
+              "location": "definitons\\FormDef.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2208022599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the website should display the free trial form module",
+            "match": {
+              "location": "definitons\\FormDef.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124627300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "user enter to the login",
+            "match": {
+              "location": "definitons\\FormDef.js:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4068076199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "enter valid credentials in login",
+            "match": {
+              "location": "definitons\\FormDef.js:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 425606499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "user click in create register",
+            "match": {
+              "location": "definitons\\FormDef.js:109"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3705518699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "when user enter valid dates in create register",
+            "match": {
+              "location": "definitons\\FormDef.js:115"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 995294400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "cp01---validate-free-trial-form",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "CP01 - Validate free trial form",
+    "tags": [],
+    "uri": "features\\1-form.feature"
+  }
+]

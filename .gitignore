@@ -1,0 +1,23 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+*.log
+
+# npm package-lock
+package-lock.json
+
+# dotenv environment variable files
+.env
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE or Editor directories and files
+.idea/
+.vscode/
+
+# Build and temporary files
+dist/
+build/
