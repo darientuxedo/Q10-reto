@@ -1,0 +1,22 @@
+Manual de Uso
+
+1- Clonar el Repositorio
+
+Abre una terminal y ejecuta el siguiente comando para clonar el repositorio:
+git clone https://github.com/darientuxedo/Q10-reto.git
+
+2- Navegar al Directorio del Proyecto
+
+Entra en el directorio del proyecto ejecutando el siguiente comando:
+cd nombre-del-repositorio
+
+3- Instalar las Dependencias
+
+Antes de ejecutar el proyecto, instala todas las dependencias necesarias utilizando el siguiente comando:
+npm install
+
+
+4-Ejecutar las Pruebas
+
+Para ejecutar las pruebas definidas en el proyecto, utiliza el siguiente comando:
+npm test
